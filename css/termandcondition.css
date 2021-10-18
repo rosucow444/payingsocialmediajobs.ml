@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+.box {
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.box .title {
+    font-family: Source Sans Pro;
+    font-size: 27px;
+}
+
+.box .sub-title {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    color: rgba(47, 47, 47, 0.43)
+}
+
+.shadow-line {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.shadow-line .shdow {
+    padding: 1px 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    width: 100%;
+    font-family: Source Sans Pro;
+    display: block;
+}
+
+.content .inner1 {
+    width: 100%;
+    color: rgba(47, 47, 47, 0.89);
+    font-size: 15px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 770px) and (min-width: 0px) {
+    .inner1 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: auto !important;
+        padding: 10px;
+    }
+    .box {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: auto !important;
+        padding: 10px;
+    }
+}

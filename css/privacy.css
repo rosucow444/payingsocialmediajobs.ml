@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+body {}
+
+.box {
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.box .title {
+    font-family: Rokkitt;
+    font-size: 27px;
+}
+
+.box .sub-title {
+    font-family: Rokkitt;
+    font-size: 18px;
+    color: rgba(47, 47, 47, 0.43)
+}
+
+.shadow-line {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.shadow-line .shdow {
+    padding: 1px 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    color: rgba(47, 47, 47, 0.89);
+    font-family: Roboto Slab;
+    display: flex;
+}
+
+.content .inner1 {
+    width: 50%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.content .inner2 {
+    width: 50%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.copy {
+    width: 800px;
+    margin: 0 auto;
+    font-family: Roboto Slab;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.copy .cp1 {
+    text-align: center;
+    margin: 15px;
+    font-size: 14px;
+    color: rgba(47, 47, 47, 0.56);
+}
+
+.copy .cp2 {
+    color: rgba(47, 47, 47, 0.309804);
+    margin: 10px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 770px) and (min-width: 0px) {
+    .box {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: auto !important;
+        padding: 10px;
+    }
+    .content .inner1 {
+        width: 40% !important;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .content .inner2 {
+        width: 50% !important;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .copy {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: auto !important;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 960px) {
+    .box {
+        width: auto !important;
+        min-width: 320px;
+    }
+}
